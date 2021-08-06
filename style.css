@@ -1,0 +1,64 @@
+/* Custom css for 'Honda CBR | Rule the road' */
+
+/* common style */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    min-height: 600px;
+}
+.burger-nav{
+    display: none;
+}
+
+/* grayscale */
+.fetured-bikes .feature-bike img{
+    filter: grayscale(1);
+}
+.fetured-bikes .feature-bike img:hover{
+    filter: grayscale(0);
+}
+.fetured-bikes .featured-bike img{
+    filter: grayscale(0);
+}
+.fetured-bikes .featured-bike img:hover{
+    filter: grayscale(1);
+}
+
+/* custom color  */
+.honda-bg{
+    background-color: #264653
+    ;
+}
+.honda-primary{
+    background-color: #E76F51
+    ;
+}
+.honda-secondary{
+color: #E76F51;
+}
+.honda-titery{
+    color: #0D0925;
+}
+.honda-hex{
+    color: #23A6F0;
+}
+.honda-footer-bg{
+    background-color: #0B0D17;
+}
+
+/* media query only for nav */
+@media only screen and (max-width:767px){
+    .main-nav{
+        display: none;
+    }
+    .burger-nav{
+        display: block;
+        color: #ffffff;
+    }
+    .login-btn{
+        display: none;
+    }
+}
